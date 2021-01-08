@@ -1,0 +1,184 @@
+@font-face {
+  font-family: metropolis;
+  src: url("/metropolis/Metropolis-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: metropolis-bold;
+  src: url("/metropolis/Metropolis-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: metropolis-bolder;
+  src: url("/metropolis/Metropolis-ExtraBold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: metropolis-semibold;
+  src: url("/metropolis/Metropolis-SemiBold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: metropolis-medium;
+  src: url("/metropolis/Metropolis-Medium.otf") format("opentype");
+}
+
+@font-face {
+  font-family: metropolis-extrabold;
+  src: url("/metropolis/Metropolis-ExtraBold.otf") format("opentype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#Homepage {
+  width: 98.9vw;
+  height: 115vh;
+  background-image: url(/images/homepage1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#Homepage #firstcont {
+  height: 40vh;
+  background: linear-gradient(to top, transparent, rgba(0, 0, 0, 0.7));
+}
+
+#Homepage #Homepage img {
+  margin-left: 10rem;
+}
+
+#upbar {
+  margin-right: 20px;
+  font-family: metropolis;
+}
+
+#upbar .d-flex a {
+  margin-left: 55px;
+}
+
+#firstcont #dots {
+  margin-top: 100px;
+}
+
+.passion {
+  /* border: 1px solid red; */
+  font-family: metropolis;
+  height: 600px;
+  margin-top: 580px;
+  box-shadow: 1px 1px 20px 0px #979797;
+}
+
+.passion h3 {
+  color: #404040;
+  font-family: metropolis-bold;
+}
+
+.passion p {
+  color: #3d3d3d;
+  padding-left: 4rem;
+  line-height: 2.5rem;
+  font-family: metropolis-medium;
+}
+
+.passion #read {
+  font-family: metropolis-semibold;
+  font-size: 1.3rem;
+  color: #7a50ff;
+}
+
+.passion #purple {
+  padding-left: 4rem;
+}
+
+.bluerec {
+  background-image: url(/images/blueback.png);
+  margin-top: 18rem;
+  margin-right: -2rem;
+  padding-top: 25px;
+  font-family: metropolis-extrabold;
+}
+
+.bluerec span {
+  font-size: 3.5rem;
+}
+
+.bluerec #expo {
+  padding-left: 3.2rem;
+  font-size: 2rem;
+}
+
+.row #stadium {
+  width: 369px; /*409*/
+  height: 528px; /*568*/
+  margin-top: -450px;
+  margin-left: -70px;
+}
+
+#what {
+  margin-top: 100vh; /* */
+  background-color: #f7f9ff;
+  font-family: metropolis-bold;
+  height: 60vh;
+}
+
+#what #whatline {
+  width: 130px;
+  height: 5px;
+}
+
+#what #purpleh1 {
+  margin-left: -70px;
+}
+
+#what #purpleh1 h3 {
+  color: #404040;
+}
+
+#what #purpleh1 h1 {
+  color: #7a50ff;
+  font-size: 50px;
+}
+
+/* Our Projects */
+
+.container #projectline {
+  width: 95px;
+}
+
+.container .business {
+  background-color: #e8e1ff;
+  display: inline-block;
+  padding: 0px 20px;
+  border-radius: 10px;
+  height: 38px;
+}
+
+.container .business p {
+  color: #7a50ff;
+  font-family: metropolis-medium;
+  padding-top: 8px;
+}
+
+.container .business img {
+  margin-top: -5px;
+  margin-right: 10px;
+}
+
+.container #proparag {
+  line-height: 2.5rem;
+  font-family: metropolis-medium;
+}
+.container #proread {
+  font-family: metropolis-semibold;
+  font-size: 1.3rem;
+  color: #7a50ff;
+}
+.container #cars {
+  margin-top: 5rem;
+  width: 481px; /*541*/
+  height: 598px; /*658*/
+}
